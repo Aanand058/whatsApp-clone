@@ -5,7 +5,6 @@ import { conversations } from "@/dummy-data/db";
 import Conversation from "./conversation";
 
 const LeftPanel = () => {
-
   return (
     <div className='w-1/4 border-gray-600 border-r'>
       <div className='sticky top-0 bg-left-panel z-10'>
