@@ -6,7 +6,7 @@ import ThemeSwitch from "./theme-switch";
 import { conversations } from "@/dummy-data/db";
 import Conversation from "./conversation";
 import { UserButton } from "@clerk/nextjs";
-import { SignedIn, SignOutButton } from "@clerk/clerk-react";
+import UserListDialog from "./user-list-dialog";
 
 const LeftPanel = () => {
   return (
@@ -18,7 +18,7 @@ const LeftPanel = () => {
          
 
           <div className='flex items-center gap-3'>
-            <MessageSquareDiff size={20} /> {/* TODO: This line will be replaced with <UserListDialog /> */}
+            <UserListDialog />
             <ThemeSwitch />
            
           </div>

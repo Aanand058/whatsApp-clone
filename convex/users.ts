@@ -91,7 +91,7 @@ export const getUsers = query({
 });
 
 
-// Authenticated User Profile 
+// Authenticated User Profile (ME)
 export const getMe = query({
 	args: {},
 	handler: async (ctx, args) => {
