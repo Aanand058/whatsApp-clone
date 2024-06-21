@@ -37,4 +37,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 =======
 # whatsApp-clone
->>>>>>> 397e86feeed337f066dbc7035f9f069800b3b7eb
