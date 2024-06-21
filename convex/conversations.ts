@@ -123,6 +123,6 @@ export const createConversation = mutation({
 // 	},
 // });
 
-// export const generateUploadUrl = mutation(async (ctx) => {
-// 	return await ctx.storage.generateUploadUrl();
-// });
+export const generateUploadUrl = mutation(async (ctx) => {
+	return await ctx.storage.generateUploadUrl();
+});
