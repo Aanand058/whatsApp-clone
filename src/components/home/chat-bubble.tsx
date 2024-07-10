@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { Dialog, DialogContent, DialogDescription } from "../ui/dialog";
 import ReactPlayer from "react-player";
-//import ChatAvatarActions from "./chat-avatar-actions";
+
 import { Bot } from "lucide-react";
 
 type ChatBubbleProps = {
